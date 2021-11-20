@@ -4,6 +4,7 @@
     <title>FamilyApp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styleAdd.css" />
+    <link rel="manifest" href="manifest.json">
   </head>
   <body>
     <div class="logo">

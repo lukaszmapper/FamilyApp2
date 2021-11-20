@@ -4,6 +4,7 @@
         <title>FamilyApp</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styleMain.css">
+        <link rel="manifest" href="manifest.json">
     </head>
     <body>
 
@@ -71,5 +72,14 @@
       <p><img src="img/tasks_icon.svg" alt="tasks">Tasks</p>
       <p><img src="img/home_icon.svg" alt="family">Family</p>
     </footer>
+
+    <script>
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js');
+  });
+}
+</script>
     </body>
 </html>
