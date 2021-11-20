@@ -6,23 +6,24 @@
         <link rel="stylesheet" href="styleMain.css">
     </head>
     <body>
-
+    <div class="header-container">
     <div class="header">
       <a onclick="hideMenu()"
         ><img class="menu-icon" src="img/menu_icon.svg" width="50px" alt="menu"/></a>
-      <h1 class="title">FamilyApp</h1>
+        <h1 class="title"><a href="index.php">FamilyApp</a></h1>
     </div>
     <div class="dropdown">
       <div class="menu-hiden dropdown-content" id="menu">
         <div class="menu-content">
-          <p class="user-name">Szymon Karpiel</p>
+          <p class="user-name"><img src="img/user_icon.svg" alt="user" height="15px"></p>
           <div>
           <?php
             if (!isset($_COOKIE['user'])) {
                 header("Refresh: 0; url=login.php");
             } else {
                 echo "<form action = 'logout.php' method='post'>
-                      <input class = 'log-in-out' type = 'submit' value = 'Wyloguj' name = 'logout'> 
+                      <img src='img/switch_icon.svg' alt='log out' height='18px'>
+                      <input class = 'log-in-out' type = 'submit' value = 'Log out' name = 'logout'>
                       </form>";
             }
 
@@ -30,6 +31,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
         <div class="main">
             <?php
@@ -67,9 +69,11 @@
       }
     </script>
     <footer>
-      <a href = 'chat.php'><p><img src="img/chat_icon.svg" alt="chat">Chat</p></a>
-      <a href = 'add.php'><p><img src="img/tasks_icon.svg" alt="tasks">Tasks</p></a>
-      <a href = 'family.php'><p><img src="img/home_icon.svg" alt="family">Family</p></a>
+
+      <p><a href="chat.php"><img src="img/chat_icon.svg" alt="chat">Chat</a></p>
+      <p><a href="add.php"><img src="img/tasks_icon.svg" alt="tasks">Add Task</a></p>
+
+      <p><img src="img/home_icon.svg" alt="family">Family</p>
     </footer>
     </body>
 </html>
