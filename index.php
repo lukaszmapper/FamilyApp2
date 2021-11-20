@@ -67,7 +67,7 @@
       }
     </script>
     <footer>
-      <a href = 'czat.php'><p><img src="img/chat_icon.svg" alt="chat">Chat</p></a>
+      <a href = 'chat.php'><p><img src="img/chat_icon.svg" alt="chat">Chat</p></a>
       <a href = 'add.php'><p><img src="img/tasks_icon.svg" alt="tasks">Tasks</p></a>
       <p><img src="img/home_icon.svg" alt="family">Family</p>
     </footer>
