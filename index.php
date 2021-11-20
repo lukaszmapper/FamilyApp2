@@ -9,8 +9,7 @@
 
     <div class="header">
       <a onclick="hideMenu()"
-        ><img class="menu-icon" src="img/menu_icon.svg" width="50px" alt="menu"
-      /></a>
+        ><img class="menu-icon" src="img/menu_icon.svg" width="50px" alt="menu"/></a>
       <h1 class="title">FamilyApp</h1>
     </div>
     <div class="dropdown">
@@ -67,5 +66,10 @@
         console.log("menu");
       }
     </script>
+    <footer>
+      <p><img src="img/chat_icon.svg" alt="chat">Chat</p>
+      <p><img src="img/tasks_icon.svg" alt="tasks">Tasks</p>
+      <p><img src="img/home_icon.svg" alt="family">Family</p>
+    </footer>
     </body>
 </html>
