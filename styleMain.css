@@ -43,6 +43,9 @@ a, a:visited {
   flex-direction: column;
   padding: 10px;
 }
+.element:last-of-type {
+    margin-bottom: 50px;
+}
 
 .element:first-of-type {
   margin-top: 10px;
@@ -122,6 +125,7 @@ img {
 }
 
 footer {
+  margin-top: 20px;
   background-color: #2e7c31;
   color: #fff;
   position: fixed;
