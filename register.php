@@ -23,8 +23,7 @@
             <input type = 'number' name = 'family' class="input"> 
             <label>Family Name</label>
             <input type = 'text' name = 'family_name' class="input"> 
-            <input type = 'submit' name = 'submit' value = 'Sign Up' class="button"> 
-        </form>
+            <input type = 'submit' name = 'submit' value = 'Sign Up' class="button">
         <?php
             include 'config.php';
             if (!empty($_POST['login']) && !empty($_POST['pass']) && !empty($_POST['family'])) {
@@ -62,5 +61,6 @@
                 }
             }
         ?>
+        </form>
     </body>
 </html>

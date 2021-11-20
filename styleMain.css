@@ -9,6 +9,7 @@ body {
 
 a, a:visited {
   text-decoration: none;
+  color: #fff;
 }
 
 .header {
@@ -41,6 +42,14 @@ a, a:visited {
   align-items: center;
   flex-direction: column;
   padding: 10px;
+}
+
+.element:first-of-type {
+  margin-top: 10px;
+}
+
+.element:last-of-type {
+  margin-bottom: 50px;
 }
 
 .element-title {
@@ -88,21 +97,21 @@ hr {
 }
 
 .dropdown-content{
-  background-color: #ddd;
+  background-color: #eee;
 }
 
-.user-name, .log-in-out{
-  margin: 0;
-  padding: 5px;
+img {
+  margin-left: 20px;
+  margin-right: 5px;
 }
 
-.log-in-out{
-  display: inline-block;
-  width: 100px;
-  text-align: center;
-  background-color: #2e7c31;
-  margin: 5px;
-  border-radius: 16px;
+.user-name, .log-in-out {
+  text-align: left;
+  color: #000;
+  border: none;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .menu-content{
@@ -114,11 +123,12 @@ hr {
 
 footer {
   background-color: #2e7c31;
-  color: white;
+  color: #fff;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
 footer p {
@@ -126,10 +136,11 @@ footer p {
   float: left;
   text-align: center;
   font-weight: 700;
+  font-size: 16px;
 }
 
 footer p img {
-  width: 18px;
+  width: 16px;
   margin-right: 6px;
 }
 
@@ -141,4 +152,12 @@ footer p img {
     justify-content: left;
     padding: 10px;
   }
+}
+
+.header-container{
+  display: block;
+  position:sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
 }

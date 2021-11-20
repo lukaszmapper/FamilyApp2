@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="logo">
-      <h1 class="title">FamilyApp</h1>
+      <h1 class="title"><a href="index.php">FamilyApp</a></h1>
     </div>
     <div class="main">
       <form action = '' method = 'post'>
@@ -36,16 +36,16 @@
                 $result2 = mysqli_query($conn, $query2);
                 if (mysqli_num_rows($result2) > 0) {
                   $i = 0;
-                  echo "<div id='list' style = 'opacity: 0;'>";
+                  echo "<div id='list' class='list' style = 'opacity: 0;'>";
                   while($row = mysqli_fetch_assoc($result2)) {
                       $i++;
                       $login = $row['login'];
-                      echo "<input class = 'input' onclick='user(event)' type = 'text' value = '$login' id = 'i$i' readonly>";
+                      echo "<input class = 'add-user' onclick='user(event)' type = 'text' value = '$login' id = 'i$i' readonly>";
                   }
                   echo "</div>";
                 }
             ?>
-            <input class = 'input' type = 'submit' value = 'Send'>
+            <input class = 'submit' type = 'submit' value = 'Send'>
       </form>
       <?php
         if (!empty($_POST['title']) && !empty($_POST['desc']) && !empty($_POST['time']) && !empty($_POST['date']) && !empty($_POST['a'])) {
