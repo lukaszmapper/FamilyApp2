@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;800&display=swap");
+
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Work Sans;
+  font-size: 18px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  background-color: #2e7c31;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 80%;
+  }
+
+  .send{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  }
+
+  .input{
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background-color: #eee;
+    border: none;
+    text-align: left;
+    font-family: Work Sans;
+    width: 80%;
+    padding: 5%;
+    margin: 0;
+    font-size: medium;
+  }
+
+  .button {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 14px;
+    border: none;
+    height: 32px;
+    border-radius: 16px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 12px;
+    width: 15%;
+    background-color: #004f04;
+    flex-direction: row;
+    justify-self: self-end;
+    margin: 0;
+
+  }
+
+  .form{
+      width: 100%;
+  }
+
+  .username{
+      font-size: small;
+      font-weight: 300;
+      margin: 5px;
+  }
+
+  .message{
+      font-size: large;
+      margin: 10px 5px;
+  }
+
+  .msg-container{
+      padding-left: 10px;
+      background-color: #eee;
+  }
+
+  .msg-container:nth-child(2n){
+    background-color: #ddd;
+}
+
+.send-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}
