@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="header">
-    <h1 class = 'title'>FamilyApp</h1>
+    <a href = 'index.php'><h1 class = 'title'>FamilyApp</h1></a>
     </div>
     <div class = 'main' id = 'main'>
     </div>

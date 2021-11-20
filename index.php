@@ -69,15 +69,11 @@
       }
     </script>
     <footer>
-<<<<<<< HEAD
+
       <p><a href="chat.php"><img src="img/chat_icon.svg" alt="chat">Chat</a></p>
       <p><a href="add.php"><img src="img/tasks_icon.svg" alt="tasks">Add Task</a></p>
-      <p><a href="family.php"><img src="img/home_icon.svg" alt="family">Family</a></p>
-=======
-      <a href = 'chat.php'><p><img src="img/chat_icon.svg" alt="chat">Chat</p></a>
-      <a href = 'add.php'><p><img src="img/tasks_icon.svg" alt="tasks">Tasks</p></a>
+
       <p><img src="img/home_icon.svg" alt="family">Family</p>
->>>>>>> f78fa3c44311acda7b1bb02219f7c0fc27ea2963
     </footer>
     </body>
 </html>
