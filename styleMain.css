@@ -146,3 +146,6 @@ footer p img {
     padding: 10px;
   }
 }
+a, a:visited {
+  color: #fff;
+}
