@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;800&display=swap");
 
 body {
   background-color: #fff;
@@ -16,7 +16,6 @@ a, a:visited {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
   background-color: #2e7c31;
 }
@@ -80,7 +79,8 @@ hr {
 }
 
 .menu-icon{
-  justify-self: right;
+  float: left;
+  margin: 5px;
 }
 
 .menu-hiden{
@@ -110,6 +110,27 @@ hr {
   align-content: center;
   flex-direction: column;
   justify-content: center;
+}
+
+footer {
+  background-color: #2e7c31;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer p img {
+  width: 18px;
+  margin-right: 6px;
 }
 
 @media screen and (min-width: 576px) {
