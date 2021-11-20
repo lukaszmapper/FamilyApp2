@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;800&display=swap");
+
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Work Sans;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.logo {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  background-color: #1875d1;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.input{
+    height: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background-color: #eee;
+    border: none;
+    text-align: center;
+    font-family: Work Sans;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+textarea{
+    max-width: 80%;
+    max-height: 125px;
+    min-height: 125px;
+    min-width: 80%;
+    border: none;
+    background-color: #eee;
+    font-family: Work Sans;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.addButton {
+  background-color: #1875d1;
+  color: #fff;
+  font-family: Work Sans;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+  width: 40px;
+}
